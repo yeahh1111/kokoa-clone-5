@@ -1,0 +1,24 @@
+.icon-row {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row span {
+  margin-top: 15px;
+}
+
+.icon-row__icon i:hover {
+  color: #b04c4d;
+}

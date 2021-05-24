@@ -1,0 +1,88 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component__text {
+  position: relative;
+}
+
+.user-component__text .noti {
+  position: absolute;
+  color: tomato;
+  width: 11px;
+  height: 11px;
+  font-size: 11px;
+  border: 1px solid tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 34px;
+  right: -21px;
+}
+
+.user-component {
+  margin-top: 30px;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-content: center;
+}
+
+.user-component__column:last-child {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__friend {
+  flex-direction: column;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 19px;
+  color: white;
+  opacity: 0.5;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-component:hover {
+  background-color: #b04c4d;
+}
